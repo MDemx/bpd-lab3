@@ -1,0 +1,38 @@
+---------------------------------
+input = ''
+expected = 'D41D8CD98F00B204E9800998ECF8427E'
+result = 'FC2DB748D7FFF412E047B50A48DB5EB9'
+false
+---------------------------------
+input = 'a'
+expected = '0CC175B9C0F1B6A831C399E269772661'
+result = 'FA893C42A6B1DE0960EE7ED84B28B54A'
+false
+---------------------------------
+input = 'abc'
+expected = '900150983CD24FB0D6963F7D28E17F72'
+result = '9D7A683A4854767DE3ED6258CED57857'
+false
+---------------------------------
+input = 'message digest'
+expected = 'F96B697D7CB7938D525A2F31AAF161D0'
+result = 'DB0CE798464DF677DE6BA570A8964BDC'
+false
+---------------------------------
+input = 'abcdefghijklmnopqrstuvwxyz'
+expected = 'C3FCD3D76192E4007DFB496CCA67E13B'
+result = '25EAC5F3FA70BFA95BA7B3B35C27BE4C'
+false
+---------------------------------
+input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+expected = 'D174AB98D277D9F5A5611C2C9F419D9F'
+result = 'D57A864DCF51C97D97B75CCB048936C1'
+false
+---------------------------------
+input = '12345678901234567890123456789012345678901234567890123456789012345678901234567890'
+expected = '57EDF4A22BE3C955AC49DA2E2107B67A'
+result = '31FBE2DEDD1CB271046E2EFABBED8DED'
+false
+---------------------------------
+input = 'sdsf'
+result = 'C07E301690E1DFE4F61B84F11BA0FDBE'
